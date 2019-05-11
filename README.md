@@ -21,5 +21,4 @@ Es gibt eine Singleplayer-Vairante und eine Multiplayer-Variante:
 - [firefly_hunt_multi.ino](firefly_hunt_multi.ino)
 
 ## LaTex-Ausgabe
-
-TODO
+Ein besonderes Highlight ist die Ausgabe der Spielergebnisse in einer PDF-Datei. Der Arduino sendet die Ergebnisse über die serielle Schnittstelle. Diese Ausgaben werden genutzt um ein LaTex-Dokument zu generieren, woraus mit pdflatex ein PDF-Dokument erzeugt wird. 
