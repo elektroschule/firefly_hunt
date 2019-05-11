@@ -3,6 +3,9 @@ Firefly hunt ist ein kleines Spiel, welches beim [mini game jam Dortmund](https:
 
 Zu Beginn wird ein Referenzwert gemessen, der von der Beleuchtung der Umgebung abhängt. Anschließend leuchten die Spieler-LEDs drei Mal kurz auf und das Spiel beginnt. Trifft ein Spieler seine Sensor-LED, so leuchtet die jeweilige Spieler-LED für drei Sekunden. Die verstrichene Zeit wird ausgegeben und das Spiel startet erneut.
 
+![Firefly hunt Foto](firefly_hunt_foto1.jpg)
+![Firefly hunt Foto](firefly_hunt_foto2.jpg)
+
 ## Schaltung
 Für die Erkennung des Laserpunktes wurde eine LED verwendet. Normalerweise sind LEDs dazu da, um Licht zu erzeugen. In diesem Fall wied die LED verwendet, um Licht zu "messen". 
 
