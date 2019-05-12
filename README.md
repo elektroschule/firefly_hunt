@@ -24,5 +24,6 @@ Es gibt eine Singleplayer-Vairante und eine Multiplayer-Variante:
 Ein besonderes Highlight ist die Ausgabe der Spielergebnisse in einer PDF-Datei. Der Arduino sendet die Ergebnisse über die serielle Schnittstelle. Diese Ausgaben werden genutzt um ein LaTex-Dokument zu generieren, woraus mit pdflatex ein PDF-Dokument erzeugt wird. 
 
 Im Ordner [latex_ausgabe](latex_ausgabe) befindet sich das Skript, welches
-auf einer seriellen Schnittstellen auf neue Werte wartet, um das PDF
-zu erzeugen. Auch ein Beispieldokument ist dort zu finden.
+auf einer seriellen Schnittstellen auf neue Werte wartet, um das PDF 
+mit Hilfe eines [Templates](latex_ausgabe/ffhunt.tex) 
+zu erzeugen. Auch ein [Beispieldokument](latex_ausgabe/ffhunt-out.pdf) ist dort zu finden.
