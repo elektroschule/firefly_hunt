@@ -22,3 +22,7 @@ Es gibt eine Singleplayer-Vairante und eine Multiplayer-Variante:
 
 ## LaTex-Ausgabe
 Ein besonderes Highlight ist die Ausgabe der Spielergebnisse in einer PDF-Datei. Der Arduino sendet die Ergebnisse über die serielle Schnittstelle. Diese Ausgaben werden genutzt um ein LaTex-Dokument zu generieren, woraus mit pdflatex ein PDF-Dokument erzeugt wird. 
+
+Im Ordner [latex_ausgabe](latex_ausgabe) befindet sich das Skript, welches
+auf einer seriellen Schnittstellen auf neue Werte wartet, um das PDF
+zu erzeugen. Auch ein Beispieldokument ist dort zu finden.
